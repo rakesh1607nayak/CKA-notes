@@ -1,0 +1,75 @@
+Spring, Spring Core, Spring IoC Interview Questions
+1. What are the bean scopes available in Spring?
+2. What are the limitations of autowiring?
+3. What is autowiring and name the different modes of it?
+4. What do you understand by Bean Wiring.
+5. Explain Bean life cycle in Spring Bean Factory Container.
+6. How is the configuration meta data provided to the spring container?
+7. What are Spring Beans?
+8. Explain the difference between constructor and setter injection?
+9. What do you understand by Dependency Injection?
+10. What do you mean by IoC (Inversion of Control) Container?
+11. What is a Spring configuration file?
+12. What are the features of Spring Framework?
+13. What is Spring Framework?
+
+Spring Boot Interview Questions
+1. What are the features of Spring Boot?
+2. Differentiate between Spring and Spring Boot.
+3. Explain the advantages of using Spring Boot for application development.
+4. What do you understand by the term ‘Spring Boot’?
+5. What does @SpringBootApplication annotation do internally?
+6. What are the uses of @RequestMapping and @RestController annotations in Spring Boot?
+7. Can the default web server in the Spring Boot application be disabled?
+8. How to disable specific auto-configuration class?
+9. Can you tell how to exclude any package without using the basePackages filter?
+10. Can we change the default port of the embedded Tomcat server in Spring boot?
+11. What are the possible sources of external configuration?
+12. What is Spring Boot dependency management system?
+13. What are the effects of running Spring Boot Application as “Java Application”?
+Spring AOP, Spring JDBC, Spring Hibernate Interview Questions
+1. What is Spring AOP?
+2. What is HibernateTemplate class?
+3. What is Hibernate Validator Framework?
+4. What are the two ways of accessing Hibernate by using Spring.
+5. What is Hibernate ORM Framework?
+6. How can you fetch records by Spring JdbcTemplate?
+7. What are some of the classes for Spring JDBC API?
+8. What is Spring AOP Proxy pattern?
+9. What is an advice? Explain its types in spring..
+
+Spring MVC Interview Questions
+1. How can you achieve thread-safety in beans?
+2. Is there any need to keepspring-mvc.jar on the classpath or is it already present as part of spring-core?
+3. What are Spring Interceptors?
+4. Why do we need BindingResults?
+5. Where does the access to the model from the view come from?
+6. How does the Spring MVC flow look like? In other words, How does a DispatcherServlet know what Controller needs to be called when there is an incoming request to the Spring MVC?
+7. How is the root application context in Spring MVC loaded?
+8. How is the dispatcher servlet instantiated?
+9. What is the significance of @Repository annotation?
+10. What are the differences between the <context:annotation-config> vs <context:component-scan> tags?
+11. Are singleton beans thread-safe?
+12. Differentiate between the @Autowired and the @Inject annotations.
+13. What is the importance of @Required annotation?
+14. What is the importance of session scope?
+15. What are the types of Spring MVC Dependency Injection?
+16. What is the importance of the web.xml in Spring MVC?
+17. What is the role of @ModelAttribute annotation?
+18. What is the use of @Autowired annotation?
+19. What is the Model in Spring MVC?
+20. What will be the selection state of a checkbox input if the user first checks the checkbox and gets validation errors in other fields and then unchecks the checkbox after getting the errors?
+21. How is it possible to use the Tomcat JNDI DataSource in the Spring applications?
+22. What do you understand by MultipartResolver?
+23. How are i18n and localization supported in Spring MVC?
+24. Differentiate between a Bean Factory and an Application Context.
+25. How to get ServletConfig and ServletContext objects in spring bean?
+26. How is the form data validation done in Spring Web MVC Framework?
+27. What are the differences between @RequestParam and @PathVariable annotations?
+28. What is ContextLoaderListener and what does it do?
+29. Can you create a controller without using @Controller or @RestController annotations?
+30. What is the @Controller annotation used for?
+31. What is a View Resolver pattern and explain its significance in Spring MVC?
+32. What is DispatcherServlet in Spring MVC? In other words, can you explain the Spring MVC architecture?
+33. What are the benefits of Spring MVC framework over other MVC frameworks?
+34. What is the Spring MVC framework?

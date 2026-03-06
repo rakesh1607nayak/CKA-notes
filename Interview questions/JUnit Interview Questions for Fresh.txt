@@ -1,0 +1,46 @@
+JUnit Interview Questions for Freshers
+1. What is JUnit?
+2. What is Unit Testing?
+3. Why do we use JUnit? Who uses JUnit more - Developers or Testers?
+4. What are the features of JUnit?
+5. Is it mandatory to write test cases for every logic?
+6. What are some of the important annotations provided by JUnit?
+7. How will you write a simple JUnit test case?
+8. What will happen if the return type of the JUnit method is String?
+9. What is the importance of @Test annotation?
+10. What is a JUnit fixture?
+11. What is a test suite?
+12. What is mocking and stubbing?
+13. What are the JUnit Assert Methods?
+14. What is the importance of @RunWith annotation?
+15. How does JUnit help in achieving tests isolation?
+
+JUnit Interview Questions for Experienced
+1. What are the best practices for writing Unit Test Cases?
+2. What are the differences between JUnit 4 and JUnit 5?
+3. What are the differences between JUnit and TestNG?
+4. How to ignore tests in JUnit?
+5. What is the purpose of @Before and @After annotations in JUnit 4?
+6. How can we test protected methods?
+7. Why can't we use System.out.println() for testing and debugging?
+8. How can we run JUnit from the command window?
+9. How do you assert exceptions thrown in JUnit 4 tests?
+10. What are the differences between @Before, @After, @BeforeClass and @AfterClass?
+11. What are Hamcrest Matchers?
+12. What is the relationship between the cyclomatic complexity of code and unit tests?
+13. What is the keyboard shortcut for running the Junit test cases in eclipse IDE?
+14. Define code coverage. What are the different types of code coverages?
+15. Is it possible to test the Java method for a timeout in JUnit?
+16. What are some of the best practices to be followed while writing code for making it more testable?
+17. Why does JUnit report only the first failure in a single attempt?
+18. How can we do testing for private methods?
+19. How can you test a generics class?
+
+JUnit Mockito Interview Questions
+1. Why do we need mocking in unit testing?
+2. What is Mockito? What are some of its advantages?
+3. When and why should we use spy?
+4. What is the difference between thenReturn and doReturn?
+5. What is the main difference between @Mock and @InjectMocks?
+6. Why can’t we mock static methods in Mockito?
+7. How can we mock void methods in Mockito?

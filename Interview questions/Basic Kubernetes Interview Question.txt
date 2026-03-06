@@ -1,0 +1,31 @@
+Basic Kubernetes Interview Questions
+1. How to do maintenance activity on the K8 node?
+2. How do we control the resource usage of POD?
+3. What are the various K8's services running on nodes and describe the role of each service?
+4. What is PDB (Pod Disruption Budget)?
+5. What’s the init container and when it can be used?
+6. What is the role of Load Balance in Kubernetes?
+7. What are the various things that can be done to increase Kubernetes security?
+8. How to monitor the Kubernetes cluster?
+9. How to get the central logs from POD?
+
+Intermediate Interview Questions
+1. How to turn the service defined below in the spec into an external one?
+2. Complete the following configurationspec file to make it Ingress
+3. How should TLS be configured with Ingress?
+4. Why should namespaces be used? How does using the default namespace cause problems?
+5. What service and namespace are referred to in the following file?
+6. What is an Operator?
+7. What is the purpose of operators?
+8. What is GKE?
+9. What is Ingress Default Backend?
+
+Kubernetes Interview Questions For Experienced
+1. How to run Kubernetes locally?
+2. What is Kubernetes Load Balancing?
+3. What the following in the Deployment configuration file mean?
+4. Can you explain the differences between Docker Swarm and Kubernetes?
+5. How to troubleshoot if the POD is not getting scheduled?
+6. How to run a POD on a particular node?
+7. What are the different ways to provide external network connectivity to K8?
+8. How can we forward the port '8080 (container) -> 8080 (service) -> 8080 (ingress) -> 80 (browser)and how it can be done?

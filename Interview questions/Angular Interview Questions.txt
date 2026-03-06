@@ -1,0 +1,54 @@
+Angular Interview Questions for Freshers
+1. Why were client-side frameworks like Angular introduced?
+2. How does an Angular application work?
+3. What are some of the advantages of Angular over other frameworks?
+4. What are the advantages of Angular over React?
+5. List out differences between AngularJS and Angular?
+6. How are Angular expressions different from JavaScript expressions?
+7. What are Single Page Applications (SPA)?
+8. What are templates in Angular?
+9. What are directives in Angular?
+10. Explain Components, Modules and Services in Angular
+11. What is the scope?
+12. What is data binding in Angular?
+13. What is two way data binding in Angular?
+14. What are Decorators and their types in Angular?
+15. What are annotations in Angular ?
+16. What are pure Pipes?
+17. What are impure pipes?
+18. What is Pipe transform Interface in Angular?
+19. Write a code where you have to share data from the Parent to Child Component?
+20. Create a TypeScript class with a constructor and a function.
+
+Angular Interview Questions for Experienced
+1. Angular by default, uses client-side rendering for its applications.
+2. What is Eager and Lazy loading?
+3. What is view encapsulation in Angular?
+4. What are RxJs in Angular ?
+5. Explain string interpolation and property binding in Angular.
+6. How are observables different from promises?
+7. Explain the concept of Dependency Injection?
+8. What are pipes in Angular explain with an example?
+9. What exactly is a parameterized pipe?
+10. What are class decorators?
+11. What are Method decorators?
+12. What are property decorators?
+13. What is the Component Decorator in Angular?
+14. What are lifecycle hooks in Angular? Explain a few lifecycle hooks.
+15. What are router links?
+16. What exactly is the router state?
+17. What does Angular Material means?
+18. What is ngOnInit?
+19. What is transpiling in Angular ?
+20. What are HTTP interceptors ?
+21. What is AOT compilation? What are the advantages of AOT?
+22. What is Change Detection, and how does the Change Detection Mechanism work?
+23. What is a bootstrapping module?
+24. Explain MVVM architecture
+
+Angular Scenario Based Interview Questions
+1. How do you choose an element from a component template?
+2. How does one share data between components in Angular?
+3. How do you deal with errors in observables?
+4. How can I include SASS into an Angular project?
+5. What happens when you use the script tag within a template?

@@ -1,0 +1,36 @@
+1. What is EC2?
+2. What is SnowBall?
+3. What is CloudWatch?
+4. What is Elastic Transcoder?
+5. What do you understand by VPC?
+6. DNS and Load Balancer Services come under which type of Cloud Service?
+7. What are the Storage Classes available in Amazon S3?
+8. Explain what T2 instances are?
+9. What are Key-Pairs in AWS?
+10. How many Subnets can you have per VPC?
+11. List different types of Cloud Services.
+
+dvanced AWS Questions
+1. Explain what S3 is?
+2. How does Amazon Route 53 provide high availability and low latency?
+3. How can you send a request to Amazon S3?
+4. What does AMI include?
+5. What are the different types of Instances?
+6. What is the relation between the Availability Zone and Region?
+7. How do you monitor Amazon VPC?
+8. What are the different types of EC2 instances based on their costs?
+9. What do you understand by stopping and terminating an EC2 Instance?
+10. What are the consistency models for modern DBs offered by AWS?
+11. What is Geo-Targeting in CloudFront?
+12. What are the advantages of AWS IAM?
+13. What do you understand by a Security Group?
+14. What are Spot Instances and On-Demand Instances?
+15. Explain Connection Draining.
+16. What is a Stateful and a Stateless Firewall?
+17. What is a Power User Access in AWS?
+18. What is an Instance Store Volume and an EBS Volume?
+19. What are Recovery Time Objective and Recovery Point Objective in AWS?
+20. Is there a way to upload a file that is greater than 100 Megabytes in Amazon S3?
+21. Can you change the Private IP Address of an EC2 instance while it is running or in a stopped state?
+22. What is the use of lifecycle hooks is Autoscaling?
+23. What are the policies that you can set for your user’s passwords

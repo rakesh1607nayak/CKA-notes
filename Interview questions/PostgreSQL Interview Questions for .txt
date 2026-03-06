@@ -1,0 +1,220 @@
+PostgreSQL Interview Questions for 5 Years Experience
+23. State the maximum size of a table on PostgreSQL.
+The maximum number of blocks in a table decides the limit of the table. As the number of blocks is 2^32 and 8192 bytes is the default size of the block, therefore, the maximum size of a table on PostgreSQL is 32TB.
+
+24. What are the differences between PostgreSQL and MongoDB?
+PostgreSQL	MongoDB
+PostgreSQL is a relational database management system.	MongoDB is a non-relational database management system.
+PostgreSQL was created using the C language.	MongoDB was created using the C++ language.
+PostgreSQL is object-oriented.
+ 
+
+MongoDB is document-oriented.
+PostgreSQL stores data in the form of different tables.	MongoDB stores data in the form of key-value pairs as one record.
+PostgreSQL is faster than MongoDB.	MongoDB is relatively slower than PostgreSQL.
+25. State the role of tokens in PostgreSQL.
+Tokens in PostgreSQL have an important role in the parsing and interpretation of SQL statements. When SQL queries are executed, the PostgreSQL server breaks down the statements into smaller units known as tokens. These tokens represent various elements like keywords, identifiers, literals, operators, and punctuation marks.  This tokenization process ensures accurate parsing and evaluation of SQL queries, enabling the server to handle database operations efficiently.
+
+PostgreSQL Advanced Interview Questions
+26. When should a developer use PostgreSQL?
+Developers should choose PostgreSQL when they require a dependable and feature-rich database management system. PostgreSQL is suitable for diverse applications, including web development, data analysis, and enterprise solutions. It provides advanced features like JSON support and geospatial capabilities. With its cross-platform compatibility and active community, developers can rely on PostgreSQL for scaling and achieving optimal performance while managing complex data.
+
+27. Describe the history of PostgreSQL in brief.
+PostgreSQL originated as a vital component of the POSTGRES project initiated by Professor Michael Stonebraker in 1986 at the University of California, Berkeley. It boasts compatibility with major operating systems such as macOS, Windows, Linux, and UNIX. 
+
+PostgreSQL has upheld ACID properties since 2001, with continuous core platform development spanning over three decades. It encompasses noteworthy additions like the PostGIS database extender and has become the standard database for macOS. commonly known as Postgres, due to its widespread adoption of the SQL Standard among relational databases.
+
+28. Explain the procedure to set up PgAdmin in PostgreSQL.
+PgAdmin is a web-based management tool that interacts with the PostgreSQL database. It can be used to perform any database administration operations on PostgreSQL.
+
+To set up PgAdmin in PostgreSQL, follow these steps:
+
+Start and launch pgAdmin 4.
+Then select “Add new Server” from the “Quick Link” section under the “Dashboard” menu.
+Choose the “Connection” tab in the “Create-Server” box after clicking “Add new Server” in the window.
+Put your server’s IP address in the “Hostname/Address” column to configure the connection.
+Finally, you must define “Port” as “5432,” which is the PostgreSQL server’s default port.
+29. Explain the role of table space in PostgreSQL.
+Table spaces in PostgreSQL are defined as the directories where data files can be stored. They are used to store various databases as well as database objects.
+
+Using table spaces, the disk layout of a PostgreSQL installation can be easily handled and managed.
+
+In addition to that, tablespaces give administrators the ability to enhance performance by making use of their knowledge of the usage patterns of database objects.
+
+PostgreSQL Interview Questions for 7 Years of Experience
+30. List the disadvantages of PostgreSQL.
+Despite its many advantages, PostgreSQL has numerous disadvantages. Some of these include:
+
+PostgreSQL may have a slower speed compared to MySQL.
+It supports fewer open-source applications compared to MySQL.
+Market recognition for PostgreSQL has been challenging due to its lack of specific ownership.
+Its performance rate may be lower than that of MySQL in certain situations.
+Check out the blog to know what are the differences between the popular databases i.e. Postgresql vs. MySQL.
+
+31. Explain the term ‘Sequence’ in PostgreSQL.
+The Sequence is a generator that produces a progressive number that can help synchronize the keys across multiple rows or tables and construct a single primary key automatically.
+
+A sequence in PostgreSQL can be defined as a user-defined schema-bound object that generates an integer sequence based on a specific requirement.
+
+PostgreSQL Interview Questions for 10 Years of Experience
+32. Differentiate between clustered and non-clustered indexes.
+Clustered Index	Non-Clustered Index
+It is faster than the non-clustered index.	It is relatively slower as compared to the clustered index.
+Index is considered the main data in the clustered index.	In the case of a non-clustered index, the index is the copy of data.
+The clustered index has the ability to store data naturally on the disk.	The non-clustered index cannot naturally store data on the disk.
+It requires lesser memory for operations as compared to the non-clustered index.	The non-clustered index requires more memory to perform operations.
+A table can consist of only one clustered index.	A table can contain multiple non-clustered indexes.
+33. What is the procedure for storing binary data in PostgreSQL?
+The users can store binary data in PostgreSQL in two distinct ways:
+
+By using the data type BYTEA.
+By using the Large Object feature.
+34. What do you understand by the enable-debug command in PostgreSQL?
+The enable-debug command in PostgreSQL is the command that assists in compiling all libraries and applications.
+
+It has a few debugging symbols that make it easier for developers to find flaws and other issues that can arise during the script’s execution. This process can slow down or impede the system when it is being used, increasing the size of the binary file.
+
+35. Describe the method by which you can change the column data type in PostgreSQL.
+The data type of one or more columns in PostgreSQL can be changed by using the following commands along with the TYPE keyword:
+
+ALTER TABLE
+ALTER COLUMN
+ Example:
+
+ALTER TABLE tab_name
+ALTER COLUMN col_name TYPE new_data_type;
+PostgreSQL DBA Interview Questions For Experienced Professionals
+36. How can the first 5 records be selected in PostgreSQL?
+The LIMIT keyword can be used to select the first N records in PostgreSQL.
+
+Example:
+
+SELECT * FROM Employee ORDER BY Salary DESC LIMIT 5
+Here, the Employee is the name of the table that contains employee data.
+
+ORDER BY command arranges the data in descending order based on the salary of employees.
+
+LIMIT keyword used with the number 5 prints the first 5 or the top 5 records present in the Employee table.
+
+37. What are the features of PostgreSQL?
+PostgreSQL or Postgres is an object-relational database management system or ORDBMS. Some of its prominent features are as follows:-
+
+Extremely high fault-tolerance
+Free to download
+Reliable and secure
+Robust and powerful
+Easy recovery process
+Low maintenance cost
+Easily compatible with a wide variety of platforms and languages.
+High availability
+Easy to use
+38 Does PostgreSQL support Full-Text Search?
+When a search is conducted on a portion of text contained in a large body of electronically recorded text, it is referred to as a full-text search, the results that are returned may include all or some of the search terms. Traditional searches,however, would only produce exact matches.
+
+Yes, PostgreSQL supports the Full-Text Search feature. It is a powerful tool in PostgreSQL and can be enhanced by incorporating functions like result highlighting or by creating your own unique dictionaries or functions.
+
+PostgreSQL Replication Interview Questions
+39. What are the physical methods used in PostgreSQL for replication?
+A few replication methods are:
+
+Physical Replication: This method includes two ways:
+
+Streaming Replication: In this replication, there is a constant streaming of changes from a primary server to one or more standby PostgreSQL servers.
+File-based Replication (pg_basebackup):  In this replication, a base backup is created of the primary server’s directory and forwarded to standby servers.
+40. How many types of replications are present in PostgreSQL?
+There are majorly four types of PostgreSQL replications, namely:
+
+Physical Replication: It is of two types:
+Streaming Replication 
+File- based Replication (pg_basebackup)
+Logical Replication: It consists of:
+Build-In Logical Replication 
+Third-party Tools
+Bi-Directional Replication (BDR)
+Custom Replication Solutions.
+41. How can replication conflicts be addressed in PostgreSQL?
+When data changes occur at the same time in different places, such as multi, which may lead to replication conflicts, the software automatically ensures the change that should be allowed with the help of “conflict handlers” in PostgreSQL. These conflict handlers automatically resolve the changes applicable to avoid conflicts.
+
+42. What are the advantages of logical replication as compared to physical replication methods?
+Advantages of logical replications are:
+
+Selective replication is possible in logical replication, which makes it more flexible to choose which data to replicate.
+Physical replication requires identical PostgreSQL versions on both primary servers and standby servers, whereas logical replication can work with different versions of PostgreSQL.
+Logical replication offers more flexibility as compared to physical replication in handling the changes in Schema.
+Logical replication is compatible with multiple applications and database maintenance tasks.
+43. What is the role of replication slots in PostgreSQL’s streaming replication mechanism?
+Replication slots within the streaming replication mechanism of PostgreSQL guarantee that the primary server will keep the Write Ahead Logging (WAL) files until they are received and applied by all servers. This ensures that the primary server will not delete these files prematurely.
+
+PostgreSQL Backup Interview Questions
+44. How can you take the backup of a database?
+PostgreSQL permits the user to take a backup of the database by using “pg_dump”.
+
+To perform a backup on a plain-text SQL file, login into your database server and implement the following command:
+
+pg_dump database_name > filename.sql
+The database can be reconstructed using the commands available in the SQL file.
+
+Another way to backup the database is:
+
+/usr/local/bin/pg_dump mydatabase > mydatabase.pgdump
+45. How can you stop a PostgreSQL Server? Can you stop a particular database in the PostgreSQL cluster?
+To stop a PostgreSQL server implement the following steps and commands:
+
+For Windows
+The first step is to locate the PostgreSQL database directory.
+
+After that, open the command prompt and execute the following command-
+
+pg_ctl -D "C:Program FilesPostgreSQL9.6data" stop
+An alternative way to stop the PostgreSQL server on Windows is:
+
+Press the Windows key + R simultaneously to enter the Run Window.
+Type services.msc to find the PostgreSQL services.
+Using the installed version, locate the Postgres service.
+Click Stop to stop the database server.
+For Linux
+Use the following command on Linux to stop the server-
+
+sudo service postgresql stop
+For macOS
+Use the following command on macOS to stop the server manually-
+
+pg_ctl -D /usr/local/var/postgres stop
+No, PostgreSQL does not allow the user to stop a specific database in the cluster.
+
+46. Discuss the differences between file-level and logical backups in PostgreSQL
+When it comes to backing up a PostgreSQL database cluster, there are two approaches: file-level backups and logical backups.
+
+File-level backups involve making copies of the files that make up the database cluster. This includes data files, configuration files, and transaction logs. This method is great for disaster recovery situations where you need to restore the database cluster. However, because it copies all the files, the backup files can be quite large. Require storage space.
+
+On the other hand, logical backups export data in a format using tools like pg_dump. These backups are smaller in size. Offer flexibility when it comes to selectively restoring specific databases, tables, or subsets of data. However, they can be slower compared to file-level backups when it comes to both backup and restore operations
+
+47. Discuss the advantages and limitations of using pg_dump for backups.
+The advantages of using pg_dump for backups are:
+
+Portability: Backup files can be effortlessly run on PostgreSQL installations.
+Selective Backup: It enables the backup of databases, schemas, tables, or rows as needed.
+Comprehensive: It captures both the database schema and data, ensuring a backup.
+Integration: pg_dump can be seamlessly integrated into automation scripts for operation.
+The limitations of using pg_dump for backups are:
+
+Impact on performance: It is possible that there could be some load on the database server, particularly when dealing with large databases.
+Storage requirements: Backups might take up an amount of space and may also require more time for transferring.
+Time required for restoration: Restoring from pg_dump backups can be a time- consuming process, potentially resulting in downtime.
+Limited parallelism: By default, the operation is performed using a thread, which could potentially prolong the duration.
+48. How can you perform a point-in-time recovery in PostgreSQL?How can you perform a point-in-time recovery in PostgreSQL?
+To perform a point-in-time recovery in PostgreSQL, you need:
+
+Make sure that WAL archiving is enabled.
+Restore the base backup.
+Apply the WAL files either by using recovery.conf or via a server.
+Stop the recovery process when you reach the recovery point you desire.
+Allow read-write operations on the database.
+49. How can you perform a selective restore of data from a PostgreSQL backup?
+To selectively restore data from a backup of PostgreSQL, follow these steps:
+
+Utilize the pg_restore command, Include the t option to indicate the table(s) you wish to restore.
+If necessary, you can also use the n option to specify schemas if the tables belong to them.
+Execute the pg_restore command by providing the file and any additional options that may be required.
+Keep an eye on the restoration process. Ensure that you verify the restored data once it is completed.
+50. What is the purpose of the pg_archivecleanup utility in PostgreSQL?

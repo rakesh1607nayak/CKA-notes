@@ -1,0 +1,41 @@
+Java Collections Interview Questions for Freshers
+1. What is the difference between Array and Collection in java?
+2. Differentiate between Collection and collections in the context of Java.
+3. Explain the hierarchy of the Collection framework in Java.
+4. What are the advantages of the Collection framework?
+5. Explain the various interfaces used in the Collection framework.
+6. Difference between ArrayList and LinkedList.
+7. Differentiate between ArrayList and Vector in java.
+8. Differentiate between List and Set in Java.
+9. Differentiate between Iterator and ListIterator in Java.
+10. Differentiate between HashSet and TreeSet. When would you prefer TreeSet to HashSet?
+11. Can you add a null element into a TreeSet or HashSet?
+12. What is a priority queue in Java?
+13. What are some of the best practices while using Java Collections?
+14. Differentiate between Set and Map in Java.
+15. Differentiate between HashSet and HashMap.
+16. What is the default size of the load factor in hashing based collection?
+17. Differentiate between Array and ArrayList in Java.
+18. How can you make an ArrayList read-only in Java?
+
+Java Collections Interview Questions for Experienced
+1. Differentiate between Comparable and Comparator in the context of Java.
+2. What do you understand about BlockingQueue in Java?
+3. Explain fail-fast and fail-safe iterators. Differentiate between them.
+4. What is the purpose of RandomAccess Interface? Name a collection type which implements this interface.
+5. Differentiate between Iterator and Enumeration.
+6. What is the use of Properties class in Java? What is the advantage of the Properties file?
+7. Differentiate between HashMap and HashTable.
+8. Why does HashMap allow null whereas HashTable does not allow null?
+9. How can you synchronize an ArrayList in Java?
+10. Why do we need synchronized ArrayList when we have Vectors (which are synchronized) in Java?
+11. Why does not the Map interface extend the Collection Interface or vice-versa?
+12. Differentiate between HashMap and TreeMap in the context of Java.
+
+Java Collection Programs
+1. Given an array in Java, convert it to a collection.
+2. Write a program in Java to display the contents of a HashTable using enumeration.
+3. Write a program to shuffle all the elements of a collection in Java.
+4. Write a program in Java to clone a Treeset to another Treeset.
+5. Write a program in java to get the collection view of the values present in a HashMap.
+6. Write a program in java to join two arraylists into one arraylist.

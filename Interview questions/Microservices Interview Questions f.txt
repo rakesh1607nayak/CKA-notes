@@ -1,0 +1,160 @@
+Microservices Interview Questions for Freshers
+1. Write main features of Microservices.
+2. Write main components of Microservices.
+3. What are the benefits and drawbacks of Microservices?
+4. Name three common tools mostly used for microservices.
+5. Explain the working of Microservice Architecture.
+6. Write difference between Monolithic, Service-oriented architecture and Microservices Architecture.
+7. Explain spring cloud and spring boot.
+8. What is the role of actuator in spring boot?
+9. Explain how you can override the default properties of Spring boot projects.
+10. What issues are generally solved by spring clouds?
+11. What do you mean by Cohesion and Coupling?
+12. What do you mean by Bounded Context?
+13. Write the fundamental characteristics of Microservice Design.
+14. What are the challenges that one has to face while using Microservices?
+15. Explain PACT in microservices.
+16. Explain how independent microservices communicate with each other.
+17. What do you mean by client certificates?
+18. Explain CDC.
+19. Name some famous companies that use Microservice architecture.
+
+
+Microservices Interview Questions for Experienced
+1. What do you mean by Semantic Monitoring?
+2. Explain continuous monitoring.
+3. What do you mean by Domain driven design?
+4. Explain OAuth.
+5. What do you mean by Distributed Transaction?
+6. Explain Idempotence and its usage.
+7. What do you mean by end-to-end microservices testing?
+8. Explain the term Eureka in Microservices.
+9. Explain the way to implement service discovery in microservices architecture.
+10. Explain the importance of reports and dashboards in microservices.
+11. What are Reactive Extensions in Microservices?
+12. Explain type of tests mostly used in Microservices.
+13. What do you mean by Mike Cohn’s Test Pyramid?
+14. Explain Container in Microservices.
+15. What is the main role of docker in microservices?
+
+
+
+General Microservices Concepts
+What is a microservice architecture, and how does it differ from a monolithic architecture?
+
+What are the main benefits of adopting a microservices architecture?
+
+What are some of the challenges you have faced when working with microservices?
+
+How do you handle communication between microservices? Can you explain the difference between synchronous and asynchronous communication?
+
+What is the role of API Gateway in a microservices architecture?
+
+How do you design microservices to be independently deployable and scalable?
+
+Can you explain the concept of bounded contexts in microservices? How do you identify and define them?
+
+What is eventual consistency, and how does it relate to microservices? How do you implement it?
+
+What is the difference between a service-oriented architecture (SOA) and microservices?
+
+Design & Architecture
+How do you design a microservice that needs to interact with multiple databases (polyglot persistence)?
+
+What are some common patterns used to implement communication between microservices, such as API Gateway, Service Mesh, and Event-driven architecture?
+
+Can you explain the CQRS (Command Query Responsibility Segregation) pattern and its use in microservices?
+
+How do you approach data management in a microservices architecture? What are the challenges of handling distributed data?
+
+How do you ensure idempotency in your microservices, especially in the context of event-driven systems or retry mechanisms?
+
+What are Strangler Fig and Saga patterns, and when would you use them in a microservices setup?
+
+Security & Authentication
+How do you manage authentication and authorization in a microservices architecture?
+
+What is the role of OAuth 2.0 and JWT (JSON Web Tokens) in securing microservices?
+
+How do you manage inter-service communication security, especially when services are deployed in different environments (e.g., cloud, on-prem)?
+
+Can you explain how to implement role-based access control (RBAC) in microservices?
+
+What are the common security risks in a microservices architecture, and how do you mitigate them?
+
+Scaling and Performance
+How do you scale a microservice architecture? What considerations do you have when scaling individual services?
+
+Can you explain how you would use load balancing and service discovery to ensure high availability in a microservices-based application?
+
+How do you monitor and optimize the performance of microservices?
+
+How do you deal with the latency issues that can arise in microservices communication?
+
+What is the role of circuit breakers and bulkheads in ensuring fault tolerance and resilience in microservices?
+
+Deployment & CI/CD
+How do you implement continuous integration/continuous deployment (CI/CD) pipelines for microservices?
+
+What tools or strategies have you used to automate testing and deployment in a microservices architecture?
+
+How do you handle rolling updates and blue-green deployments in microservices?
+
+What are the challenges of versioning APIs in a microservices environment? How do you manage backward compatibility?
+
+How do you manage configuration in a microservices architecture? What tools have you used for configuration management?
+
+Logging, Monitoring & Tracing
+How do you implement centralized logging in a microservices environment?
+
+What is distributed tracing, and how does it help in debugging and monitoring microservices?
+
+What tools and techniques have you used to monitor the health of microservices and ensure observability?
+
+How do you handle debugging in a microservices-based architecture, especially when dealing with issues across multiple services?
+
+What are the best practices for collecting and analyzing metrics in a microservices system?
+
+Event-Driven Architectures & Messaging
+What is event-driven architecture, and how does it benefit microservices?
+
+How do you implement messaging systems (e.g., Kafka, RabbitMQ) for communication between microservices?
+
+Can you explain the difference between event sourcing and CQRS, and when would you use them together?
+
+What challenges have you faced when implementing eventual consistency using an event-driven approach in microservices?
+
+What are some ways to handle message retries, dead-letter queues, and error handling in messaging systems?
+
+Testing Microservices
+How do you test microservices, especially when they have dependencies on other services or databases?
+
+What is contract testing, and how do you implement it in microservices (e.g., with tools like Pact)?
+
+How do you ensure that your microservices are resilient under load? Have you used tools like Chaos Monkey for testing?
+
+How do you test integration points between microservices without creating tight coupling between them?
+
+Can you explain the role of consumer-driven contracts in testing microservices?
+
+Cloud and DevOps
+How do you leverage cloud-native services (e.g., AWS, GCP, Azure) when building and deploying microservices?
+
+What is Docker, and how do you use containers to deploy microservices?
+
+What is Kubernetes, and how does it help in managing microservices at scale?
+
+What are some best practices for managing secrets and environment variables in a microservices architecture?
+
+How do you handle service discovery and load balancing in a cloud-native environment?
+
+Advanced Microservices Topics
+How do you implement distributed transactions in microservices, and what are the challenges involved?
+
+What is Service Mesh, and how does it help with service-to-service communication in microservices?
+
+Can you explain how API Gateway works, and what role does it play in microservices architecture?
+
+What is Event Sourcing, and how does it differ from traditional CRUD operations?
+
+How do you ensure consistency across multiple microservices, especially in eventual consistency systems?

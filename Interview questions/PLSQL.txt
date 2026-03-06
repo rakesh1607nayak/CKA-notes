@@ -1,0 +1,30 @@
+PL/SQL Basic Interview Questions
+1. What are the features of PL/SQL?
+2. What do you understand by PL/SQL table?
+3. Explain the basic structure followed in PL/SQL?
+4. What is a PL/SQL cursor?
+5. What is the use of WHERE CURRENT OF in cursors?
+6. How can a name be assigned to an unnamed PL/SQL Exception Block?
+7. What is a Trigger? Name some instances when “Triggers” can be used.
+8. When does a DECLARE block become mandatory?
+9. How do you write comments in a PL/SQL code?
+10. What is the purpose of WHEN clause in the trigger?
+PL/SQL Intermediate Interview Questions
+1. Can you explain the PL/SQL execution architecture?
+2. Why is SYSDATE and USER keywords used?
+3. Differentiate between implicit cursor and explicit cursor.
+4. Differentiate between SQL and PL/SQL.
+5. What is the importance of %TYPE and %ROWTYPE data types in PL/SQL?
+6. What are the various functions available for manipulating the character data?
+7. What is the difference between ROLLBACK and ROLLBACK TO statements in PL/SQL?
+8. What is the use of SYS.ALL_DEPENDENCIES?
+9. What are the virtual tables available during the execution of the database trigger?
+10. Differentiate between the cursors declared in procedures and the cursors declared in the package specifications.
+
+
+PL/SQL Advanced Interview Questions
+1. What are COMMIT, ROLLBACK and SAVEPOINT statements in PL/SQL?
+2. How can you debug your PL/SQL code?
+3. What is the difference between a mutating table and a constraining table?
+4. In what cursor attributes the outcomes of DML statement execution are saved?
+5. Is it possible to declare column which has the number data type and its scale larger than the precision? For example defining columns like: column name NUMBER (10,100), column name NUMBER (10,-84)

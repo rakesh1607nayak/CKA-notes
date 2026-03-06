@@ -1,0 +1,44 @@
+Maven Interview Questions for Beginners
+1. When should one use Maven?
+2. Discuss the core concepts of Maven.
+3. How does Maven work?
+4. List a few differences between Maven and ANT.
+5. What elements are used for creating a pom.xml file?
+6. What are the different types of Maven repositories? Discuss.
+7. What command should one use to install JAR files in the Local Repository?
+8. In Maven, what do you mean by Clean, Default, and Site?
+9. What are the different phases of the default life cycle?
+10. What are Maven plugins used for? What are the types of Maven plugins?
+11. “Maven uses convention over configuration” - Why is it so?
+12. What is Maven's inheritance order?
+13. In Maven, what is a snapshot?
+14. What are the locations where Maven dependencies are stored?
+15. What are the different types of Maven build profiles? In what ways can build profiles of maven be activated?
+16. How would you refer to a property declared in your pom.xml file?
+17. How to generate javadocs in Maven?
+18. What exactly is MOJO?
+19. What do you understand about the term ‘Super POM’?
+20. What is a 'Dependency Scope'? What are the different types of Dependency Scopes?
+Maven Interview Questions for Experienced
+1. What do you mean by a Maven Archetype? How will you create a new project based on an Archetype?
+2. What command is used to create a new project from a hard drive?
+3. What are the phases of the clean lifecycle?
+4. What are the phases of the site lifecycle?
+5. Explain the three commonly used plugins: clean, surefire, antrun.
+6. What is the settings.xml file in Maven?
+7. What is dependency mediation and dependency management?
+8. What do you mean by the term “system dependency”?
+9. What is the use of an Optional Dependency?
+10. What do you understand about ‘Transitive Dependency’ in Maven? What is dependency exclusion?
+11. What are the elements that must be defined for each external dependency?
+12. What are user-defined properties?
+13. Discuss the profile element in settings.xml file.
+14. What is maven-release plugin and how does it work?
+15. Why are exclusions made on a dependency-by-dependency basis instead of at the POM level?
+16. Explain the default and the advanced configuration inheritance.
+17. Explain Project Aggregation.
+18. What is the use of the Maven Wagon plugin?
+19. How is Doxia used by Maven?
+20. How will you run JUnit tests in parallel with a Maven build?
+21. How can you skip running the tests for a particular project?
+22. What is the difference between the maven package and the maven install?

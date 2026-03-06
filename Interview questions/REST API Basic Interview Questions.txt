@@ -1,0 +1,49 @@
+REST API Basic Interview Questions
+1. What do you understand by RESTful Web Services?
+2. What is a REST Resource?
+3. What is URI?
+4. What are the features of RESTful Web Services?
+5. What is the concept of statelessness in REST?
+6. What do you understand by JAX-RS?
+7. What are HTTP Status codes?
+8. What are the HTTP Methods?
+9. Can you tell the disadvantages of RESTful web services?
+10. Define Messaging in terms of RESTful web services.
+
+REST API Experienced Interview Questions
+1. Differentiate between SOAP and REST?
+2. While creating URI for web services, what are the best practices that needs to be followed?
+3. What are the best practices to develop RESTful web services?
+4. What are Idempotent methods? How is it relevant in RESTful web services domain?
+5. What are the differences between REST and AJAX?
+6. Can you tell what constitutes the core components of HTTP Request?
+7. What constitutes the core components of HTTP Response?
+8. Define Addressing in terms of RESTful Web Services.
+9. What are the differences between PUT and POST in REST?
+10. What makes REST services to be easily scalable?
+11. Based on what factors, you can decide which type of web services you need to use - SOAP or REST?
+12. We can develop webservices using web sockets as well as REST. What are the differences between these two?
+13. Can we implement transport layer security (TLS) in REST?
+14. Should we make the resources thread safe explicitly if they are made to share across multiple clients?
+15. What is Payload in terms of RESTful web services?
+16. Is it possible to send payload in the GET and DELETE methods?
+17. How can you test RESTful Web Services?
+18. What is the maximum payload size that can be sent in POST methods?
+19. How does HTTP Basic Authentication work?
+20. What is the difference between idempotent and safe HTTP methods?
+
+JAX-RS Interview Questions
+1. What are the key features provided by JAX-RS API in Java EE?
+2. Define RESTful Root Resource Classes in the JAX-RS API?
+3. What do you understand by request method designator annotations?
+4. How can the JAX-RS applications be configured?
+5. Is it possible to make asynchronous requests in JAX-RS?
+6. List the key annotations that are present in the JAX-RS API?
+
+Spring RESTful Web Services Interview Questions
+1. Define RestTemplate in Spring.
+2. What is the use of @RequestMapping?
+3. What are the differences between the annotations @Controller and @RestController?
+4. What does the annotation @PathVariable do?
+5. Is it necessary to keep Spring MVC in the classpath for developing RESTful web services?
+6. Define HttpMessageConverter in terms of Spring REST?

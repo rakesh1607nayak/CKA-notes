@@ -1,0 +1,232 @@
+1. How many Docker components are there?
+2. What are docker images?
+3. What is a DockerFile?
+4. Can you tell what is the functionality of a hypervisor?
+5. What can you tell about Docker Compose?
+6. Can you tell something about docker namespace?
+7. What is the docker command that lists the status of all docker containers?
+8. On what circumstances will you lose data stored in a container?
+9. What is docker image registry?
+10. Can you tell something about docker container?
+11. What is a Docker Hub?
+12. What command can you run to export a docker image as an archive?
+13. What command can be run to import a pre-exported Docker image into another Docker host?
+14. Can a paused container be removed from Docker?
+15. What command is used to check for the version of docker client and server?
+
+Docker Intermediate Interview Questions
+1. What is the way to establish communication between docker host and Linux host?
+2. What is the purpose of the volume parameter in a docker run command?
+3. Where are docker volumes stored in docker?
+4. What does the docker info command do?
+5. Can you tell the what are the purposes of up, run, and start commands of docker compose?
+6. What are the basic requirements for the docker to run on any system?
+7. Can you tell the approach to login to the docker registry?
+8. List the most commonly used instructions in Dockerfile?
+9. Can you differentiate between Daemon Logging and Container Logging?
+10. Can you tell the differences between a docker Image and Layer?
+11. What is the best way of deleting a container?
+12. Can you tell the difference between CMD and ENTRYPOINT?
+13. Differentiate between virtualization and containerization.
+14. Differentiate between COPY and ADD commands that are used in a Dockerfile?
+15. Can a container restart by itself?
+Docker Advanced Interview Questions
+
+1. Can we use JSON instead of YAML while developing docker-compose file in Docker?
+2. How many containers you can run in docker and what are the factors influencing this limit?
+3. Describe the lifecycle of Docker Container?
+4. How to use docker for multiple application environments?
+5. How will you ensure that a container 1 runs before container 2 while using docker compose?
+Conclusion
+Docker Interview MCQs
+
+
+1. How does Docker differ from traditional virtualization technologies like VMware or VirtualBox?
+Answer:
+
+Docker and traditional virtualization technologies like VMware or VirtualBox differ in their approach to isolation. 
+
+VirtualBox and VMware use a hypervisor to run multiple full-fledged virtual machines, each with its own operating system. This can be resource intensive, as every virtual machine needs its own CPU, disk, and memory resources.
+
+In contrast, Docker uses containerization, an operating system-level virtualization method. Rather than creating a full operating system, Docker allows multiple applications to share the same OS kernel, effectively segregating them into separate containers. 
+
+Each container houses an application and its dependencies but shares the host OS. This makes Docker containers lightweight and fast, as they don’t need to boot an entire OS.
+
+Docker’s approach leads to efficient resource use and quick startup times compared with traditional virtualization technologies.
+
+2. Explain the components of a Docker container and the purpose of each. For example, images, containers, Docker daemon, and Docker CLI.
+Answer:
+
+A Docker container has several components.
+
+Images are read-only templates used to create Docker containers. They include the application and all its dependencies but exclude the host-specific settings, such as mounted directories from the host OS and networking information.
+
+Containers are the runnable instances of Docker images. You can start, stop, move, or delete a container using Docker API or CLI. Each container is isolated from others and the host system.
+
+Docker daemon (dockerd) is a background service that manages Docker containers. It listens for Docker API requests and handles Docker functionalities like building, distributing, and running Docker containers.
+
+Docker CLI (Command Line Interface) is the primary user interface for Docker. Through Docker CLI, users can interact with Docker daemons to manage Docker objects like images, containers, networks, and volumes.
+
+3. What is the difference between Docker images and Docker containers?
+Answer:
+
+A Docker image is a lightweight, stand-alone, executable software package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
+
+A Docker container is a runtime instance of a Docker image. When you run an image, Docker creates a container from that image. Containers are isolated from each other and bundle their own software, libraries, and system tools, enabling you to run your applications securely in any environment.
+
+In short, Docker images are the building blocks, and Docker containers are the environment in which those blocks run.
+
+4. Describe the Docker build process, including the role of Dockerfiles and caching mechanisms.
+Answer: 
+
+The Docker build process involves the following steps:
+
+Write a Dockerfile. This text document contains all the commands needed to assemble an image. It’s the blueprint for creating Docker images.
+
+Run the docker build command, which takes the Dockerfile and builds an image based on the instructions specified.
+
+Each instruction in the Dockerfile creates a new layer in the image. These layers are stacked on top of each other to create the final image.
+
+Dockerfile instructions include specifying a base image (FROM), setting the author of the image (LABEL), running commands (RUN), adding files or directories into the image (ADD) or COPY), exposing ports for inter-container communication (EXPOSE), and choosing what command to run when the container is launched from the image (CMD or ENTRYPOINT).
+
+Docker uses a caching mechanism to speed up the build process. When Docker builds an image, it caches the result for each Dockerfile line. If you build again and the file hasn’t changed, Docker reuses the cached layers rather than rebuilding them, making the process faster.
+
+5. How do you optimize Docker images for size and performance?
+How do you optimise docker images for size and performance graphic
+Answer: 
+
+Optimizing Docker images for size and performance is essential for your applications to run and scale efficiently. There are several techniques you can use to optimize Docker images.
+
+Use multi-stage builds: You can use one Docker image to build your application and a different, lighter image to run it. The final image doesn’t carry the baggage of the build tools and intermediate artifacts, reducing its size.
+
+Minimize layers: Each RUN, COPY, or ADD command creates a new layer in your image. Combine these commands where possible to reduce the number of layers, using chaining commands (&&) in a single RUN instruction.
+
+Use a dockerignore file: This file lets you specify files or directories that should be ignored when building an image, preventing unnecessary or sensitive data from being included.
+
+Clean up in the same layer: Remove unnecessary files created by package managers within the same Dockerfile command. 
+
+Use a smaller base image: Instead of using a full-fledged OS as your base image, consider using smaller, more focused base images to reduce your image size significantly.
+
+6. Explain the concept of Docker networking and discuss the various network drivers available in Docker.
+Answer:
+
+Docker networking allows containers to communicate with each other and with other systems. 
+
+Bridge: This is the default network driver for a container. If you don’t specify a driver, Docker creates a bridge network for the container by default. This provides a private internal network on the host where containers are attached, which can facilitate communication between them.
+
+Host: The container’s network stack isn’t isolated from the Docker host if you use the host network driver. The container directly uses the networking of the Docker host. It’s faster than the bridge driver, but the container exposes its ports directly to the outside world.
+
+Overlay: This driver is used in Docker Swarm to enable swarm services to communicate with each other. It’s ideal for distributed networks across multiple hosts.
+
+MacVLAN: This driver assigns a MAC address to containers to make them appear as physical devices on the network. The Docker daemon routes traffic between containers and external networks.
+
+None: This driver disables all networking for the container. 
+
+7. What are Docker volumes, and how do they enable data persistence across containers?
+Answer:
+
+Docker volumes are the preferred mechanism for persisting data generated and used by Docker containers. 
+
+By default, Docker containers are stateless. When a container is deleted, all the changes made to its file system are lost. Docker volumes solve the problem of persisting data in Docker containers. 
+
+With Docker volumes, the data lives outside the containers and is stored on the host system. This makes the data persistent and independent of the life cycle of containers. The data in Docker volumes can be safely shared among multiple containers. Even if a container is deleted, the volume and its data will still exist.
+
+8. How can you secure Docker containers and protect them from potential vulnerabilities?
+Answer:
+
+Multiple best practices are required to ensure the security of Docker containers.
+
+Use trusted and minimal base images to reduce vulnerabilities.
+
+Always pull Docker images from trusted sources, like Docker’s official repository.
+
+Apply the principle of least privilege. Run containers with minimal permissions.
+
+Avoid running containers or services as root when possible.
+
+Keep the Docker environment up to date.
+
+Secure communication between containers and outside networks. Use TLS for encryption if necessary.
+
+Implement security scanning and monitoring tools for early vulnerability detection and prompt response.
+
+Conduct regular security audits and reviews.
+
+9. What is Docker Compose, and how does it simplify multi-container application deployments?
+Answer:
+
+Docker Compose is a tool that simplifies managing and deploying multi-container Docker applications. 
+
+With Compose, you can define your multi-container application using a YAML file where you specify services, networks, and volumes. Each service corresponds to a container. You can specify the Docker image, environment variables, network, and volume it should use.
+
+The power of Docker Compose comes when deploying a multi-container application. Instead of running each container separately and manually connecting them, you just need to type docker-compose up. 
+
+This command will create the networks, volumes, and services as defined in your Compose file, dramatically simplifying the process and reducing the potential for human error.
+
+10. Describe the role of Docker Swarm and Kubernetes in managing container orchestration.
+Answer: 
+
+Docker Swarm and Kubernetes are two popular container orchestration tools. They manage the lifecycle of containers and provide features for scaling, fail-over, deployment patterns, and more.
+
+Docker Swarm is a native clustering and scheduling tool for Docker. It turns a pool of Docker hosts into a single, virtual Docker host, enabling you to create a swarm of Docker nodes and deploy services to them. It provides features like service discovery, load balancing, secure communication between nodes, and desired state management.
+
+Kubernetes, often abbreviated to K8s, is a container orchestration platform maintained by the Cloud Native Computing Foundation (CNCF). It’s more feature-rich than Docker Swarm, providing advanced features like auto-scaling, rollouts and rollbacks, batch execution, secrets and configuration management, and storage orchestration.
+
+While Docker Swarm is simpler to set up and integrates smoothly with Docker, Kubernetes has a larger community and is more versatile, orchestrating not just Docker but also other container runtimes. 
+
+11. Explain the differences between a Docker registry and a Docker repository.
+Answer:
+
+A Docker registry is a storage and distribution system for named Docker images. The Docker Hub and Google Container Registry are examples of public registries, but you can also have private ones.
+
+A Docker repository is a collection of different Docker images with the same name, distinguished by different tags. For example, in a repository called “debian”, you might have the tags 10, 11, and 12, each corresponding to a different image of the Debian operating system.
+
+12. Describe the steps involved in upgrading or rolling back a Docker container to a different version.
+Answer:
+
+Upgrading or rolling back a Docker container involves replacing the existing container with a new one running a different image version. Here are the steps to do it.
+
+Pull the new version of the image. Use docker pull to download the new version of the image from the Docker registry.
+
+Stop and remove the existing container. Use docker stop to stop the running container and docker rm to remove it. You should store your persistent data in volumes or bind mounts so you don’t lose it when the container is removed.
+
+Run the new container. Use docker run to start a new container from the new image version. Connect it to the network and volumes. Set the environment variables.
+
+Tools like Docker Compose, Docker Swarm, or Kubernetes provide mechanisms for rolling updates that let you upgrade containers with zero downtime.
+
+13. What are the benefits and use cases of using multi-stage builds in Docker?
+Answer:
+
+A multi-stage build in Docker involves multiple Dockerfile FROM instructions, each starting a new stage. Intermediate stages can produce artifacts like binaries or compiled code, which can be copied into later stages. Intermediate layers are left behind, reducing the final image size.
+
+Multi-stage builds can help you create lean, secure, and efficient Docker images.
+
+Use cases for multi-stage builds include:
+
+Minimizing image size: You can use a large image with all the necessary build tools in the first stage to compile your application and then copy the compiled application into a smaller base image in a later stage.
+
+Improving security: The final image can be kept minimal, reducing the attack surface. It doesn’t need to include the build tools and source code used in earlier stages.
+
+Separating build-time and runtime dependencies: Different stages can have different dependencies, preventing unnecessary libraries from ending up in your final image.
+
+Speeding up builds: If a stage doesn’t change often, Docker can use cached layers for that stage, speeding up the build process.
+
+14. Discuss the impact of using the --privileged flag in Docker and why it should be used with caution.
+Answer:
+
+The --privileged flag in Docker is a powerful option that gives a container almost the same privileges as the host machine. This means the container can access and manipulate the host’s system resources, device drivers, and kernel modules, which could expose the host to security risks.
+
+You should attempt to avoid using the --privileged flag because it overrides the security measures provided by Docker’s containerization model. It essentially defeats the purpose of isolating the application’s process and environment from the host system.
+
+Instead of using the --privileged flag, a better practice is to use Linux capabilities, seccomp profiles, or AppArmor profiles to grant necessary privileges to a container on a granular level.
+
+15. How does Docker handle resource limitations and isolation, such as CPU, memory, and I/O?
+Answer:
+
+Docker provides several mechanisms for limiting and isolating resources in a container, such as CPU, memory, and I/O.
+
+CPU: Docker enables you to limit CPU usage by assigning a specific number of CPU shares to a container or specifying which CPUs or CPU cores a container can use. You can do this with the --cpu-shares, --cpuset-cpus, and --cpu-period options.
+
+Memory: You can limit a container’s memory usage with the --memory option, which takes a memory size in bytes, kilobytes, megabytes, or gigabytes. Docker also enables setting a memory reservation limit with the --memory-reservation option.
+
+I/O: Docker uses the I/O scheduler of the host operating system to manage I/O for containers. It also supports block I/O weight and limits with the --blkio-weight, --device-read-bps, and --device-write-bps options.

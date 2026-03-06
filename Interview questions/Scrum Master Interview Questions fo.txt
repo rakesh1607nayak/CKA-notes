@@ -1,0 +1,37 @@
+Scrum Master Interview Questions for Freshers
+1. What are the different roles in Scrum?
+2. What do you mean by Agile?
+3. What do you mean by Sprint in Scrum?
+4. What are the five Scrum values?
+5. What are the three pillars of Scrum?
+6. What do you mean by user stories in Scrum? What are the advantages of using them?
+7. Who is responsible for writing User Story?
+8. Explain user story structure with an example.
+9. Is Scrum and Agile the same? If not so, differentiate between them.
+10. What are the roles of a Scrum Master?
+11. How can you assure that the user stories meet the requirements?
+12. Why are the user stories not estimated in man hours?
+13. What do you mean by Artifacts in Scrum?
+14. What are the five steps of Risk Management?
+15. What do you mean by timeboxing in Scrum? When can a Sprint be cancelled and by whom?
+16. How are Epic, User Story and Tasks different from one another in the context of Scrum?
+17. Who all can be the participants in the retrospective meeting?
+18. What do you mean by Sprint 0 and Spike?
+19. Differentiate between Product Backlog and Sprint Backlog.
+20. What do you mean by DoD?
+21. What is the purpose of a Scrum Master to be present at the Daily Scrum?
+22. What do you mean by ‘Confidence Vote’ in Scrum? Why is it important?
+Scrum Master Interview Questions for Experienced
+1. What do you mean by Scrum of Scrums?
+2. Differentiate between MVP and MMR.
+3. What are the three C’s in an User Story?
+4. How will a Scrum Master prevent extreme weariness induced due to retrospectives?
+5. The Agile methodology emphasises the importance of "People Over Processes." Is the Scrum Master's responsibility of enforcing "the process" a contradiction?
+6. How will the Scrum Master make sure that the team delivers action items on time?
+7. What do you mean by Velocity in the context of Scrum? Does having maximum Velocity ensure maximum Productivity?
+8. How can a Scrum Master ensure that the three pillars of Scrum are being implemented by the team?
+9. What do you mean by Scrum Master as a Servant Leader?
+10. Is daily standup recommended for all teams regardless of their size and experience level. Explain.
+11. What do you understand about Scope Creep? How can Scope Creep be managed?
+12. Can the Scrum team be involved in the product discovery process? If so, explain how.
+13. When should a Scrum Master not act as a facilitator?

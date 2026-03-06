@@ -1,0 +1,45 @@
+1. Can you name the important standard streams in the UNIX shell scripting?
+2. Define a single-user system.
+3. Name a few significant features of UNIX?
+4. Can you write a command to erase all files in the current directory including all its sub-directories?
+5. Describe a link in UNIX.
+6. Describe pipes in Unix
+7. In Shell scripting, how do you separate the grep and egrep?
+8. What is the fork() system call?
+9. What is meant by the term Super User?
+10. What do chmod, chown, chgrp commands do?
+11. Explain Unix Architecture
+12. What is the ‘nohup’ in UNIX?
+
+Intermediate Unix Interview Questions
+1. Can you enlist some commonly used network commands?
+2. Explain a path in UNIX and different types of pathnames.
+3. Explain Superblock in UNIX.
+4. Enlist some file manipulation commands in UNIX.
+5. Explain networking stack and protocol.
+6. Explain the alias mechanism.
+7. What is a wildcard and how is it used?
+8. What are system calls and library functions in terms of Unix commands?
+9. In shell scripting, what is the significance of the Shebang line?
+10. Differentiate between swapping and paging?
+11. What is a daemon?
+12. Can you explain the method of changing file access permission?
+13. Explain the process model of Unix?
+14. Explain the term filter.
+15. What can you tell about shell variables?
+16. What do you know about the MBR?
+17. Explain the file system in UNIX
+
+Advanced Unix Interview Questions
+
+1. Name the various commands that are used for the user information in UNIX.
+2. Explain Virtual memory
+3. Explain the kill() system call and its return values?
+4. Explain mount and unmount commands.
+5. Can you explain a little bit about command substitution?
+6. What is the difference between ps -ef and ps -auxwww?
+7. What is the Zombie process in UNIX? How do you find the Zombie process?
+8. You have an IP address in your network, how will you find the hostname and vice versa?
+9. Explain system bootup in UNIX.
+10. What are different classes of jobs?
+11. What are the various IDs in UNIX proc

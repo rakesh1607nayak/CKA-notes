@@ -1,0 +1,45 @@
+1. What is ORM in Hibernate?
+2. What are the advantages of Hibernate over JDBC?
+3. What are some of the important interfaces of Hibernate framework?
+4. What is a Session in Hibernate?
+5. What is a SessionFactory?
+6. What do you think about the statement - “session being a thread-safe object”?
+7. Can you explain what is lazy loading in hibernate?
+8. What is the difference between first level cache and second level cache?
+9. What can you tell about Hibernate Configuration File?
+10. How do you create an immutable class in hibernate?
+11. Can you explain the concept behind Hibernate Inheritance Mapping?
+12. Is hibernate prone to SQL injection attack?
+
+
+Intermediate Interview Questions
+1. Explain hibernate mapping file
+2. What are the most commonly used annotations available to support hibernate mapping?
+3. Explain Hibernate architecture
+4. Can you tell the difference between getCurrentSession and openSession methods?
+5. Differentiate between save() and saveOrUpdate() methods in hibernate session.
+6. Differentiate between get() and load() in Hibernate session
+7. What is criteria API in hibernate?
+8. What is HQL?
+9. Can you tell something about one to many associations and how can we use them in Hibernate?
+10. What are Many to Many associations?
+11. What does session.lock() method in hibernate do?
+12. What is hibernate caching?
+13. When is merge() method of the hibernate session useful?
+14. Collection mapping can be done using One-to-One and Many-to-One Associations. What do you think?
+15. Can you tell the difference between setMaxResults() and setFetchSize() of Query?
+16. Does Hibernate support Native SQL Queries?
+
+
+Hibernate Interview Questions For Experienced
+1. What happens when the no-args constructor is absent in the Entity bean?
+2. Can we declare the Entity class final?
+3. What are the states of a persistent entity?
+4. Explain Query Cache
+5. Can you tell something about the N+1 SELECT problem in Hibernate?
+6. How to solve N+1 SELECT problem in Hibernate?
+7. What are the concurrency strategies available in hibernate?
+8. What is Single Table Strategy?
+9. Can you tell something about Table Per Class Strategy.
+10. Can you tell something about Named SQL Query
+11. What are the benefits of NamedQuery?

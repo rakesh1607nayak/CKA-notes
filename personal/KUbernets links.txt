@@ -1,0 +1,9 @@
+KUbernets links
+
+https://laas.makemylabs.in/capgemini/userMachineCatalog/a6637bef-8915-4fa2-9cc5-1bab788c7c38
+ 
+https://degreed.com/pathway/39zrvlmzpq/pathway
+
+https://linux.how2shout.com/how-to-install-minikube-on-ubuntu-22-04-lts-linux/  ----AWS
+
+labsupport@iiht.com

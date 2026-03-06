@@ -1,0 +1,45 @@
+Multithreading Interview Questions in Java for Freshers
+1. What are the benefits of using Multithreading?
+2. What is Thread in Java?
+3. What are the two ways of implementing thread in Java?
+4. What's the difference between thread and process?
+5. What’s the difference between class lock and object lock?
+6. What's the difference between User thread and Daemon thread?
+7. How can we create daemon threads?
+8. What are the wait() and sleep() methods?
+9. What’s the difference between notify() and notifyAll()?
+10. Why wait(), notify(), and notifyAll() methods are present in Object class?
+11. What is Runnable and Callable Interface? Write the difference between them.
+12. What is the start() and run() method of Thread class?
+13. Explain thread pool?
+14. What’s the purpose of the join() method?
+15. What do you mean by garbage collection?
+16. Explain the meaning of the deadlock and when it can occur?
+17. Explain volatile variables in Java?
+18. How do threads communicate with each other?
+19. Can two threads execute two methods (static and non-static concurrently)?
+20. What is the purpose of the finalize() method?
+
+Multithreading Interview Questions in Java for Experienced
+1. What is the synchronization process? Why use it?
+2. What is synchronized method and synchronized block? Which one should be preferred?
+3. What is thread starvation?
+4. What is Livelock? What happens when it occurs?
+5. What is BlockingQueue?
+6. Can you start a thread twice?
+7. Explain context switching.
+8. What is CyclicBarrier and CountDownLatch?
+9. What do you mean by inter-thread communication?
+10. What is Thread Scheduler and Time Slicing?
+11. What is a shutdown hook?
+12. What is busy spinning?
+13. What is ConcurrentHashMap and Hashtable? In java, why is ConcurrentHashMap considered faster than Hashtable?
+14. Explain thread priority.
+15. What do you mean by the ThreadLocal variable in Java?
+16. What is semaphore?
+17. Explain Thread Group. Why should we not use it?
+18. What is the ExecutorService interface?
+19. What will happen if we don’t override the thread class run() method?
+20. What is the lock interface? Why is it better to use a lock interface rather than a synchronized block.?
+21. Is it possible to call the run() method directly to start a new thread?
+22. Is it possible that each thread can have its stack in multithreaded programming?

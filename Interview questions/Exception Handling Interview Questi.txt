@@ -1,0 +1,35 @@
+Exception Handling Interview Questions for Freshers
+1. What is an exception in Java?
+2. What is exception handling in Java and what are the advantages of exception handling?
+3. How are exceptions handled in Java?
+4. What is exception propagation in Java?
+5. What are the important methods defined in Java’s Exception Class?
+6. What are runtime exceptions in Java?
+7. What is the difference between the throw and throws keywords in Java?
+8. How do you handle checked exceptions?
+9. Differentiate between Checked Exception and Unchecked Exceptions in Java.
+10. Can you catch and handle Multiple Exceptions in Java?
+11. What is a stack trace and how is it related to an Exception?
+12. What is Exception Chaining?
+13. Can we have statements between try, catch and finally blocks?
+14. How are the keywords final, finally and finalize different from each other?
+15. What is the output of this below program?
+16. What is the difference between ClassNotFoundException and NoClassDefFoundError?
+17. What do you understand by an unreachable catch block error?
+
+Exception Handling Interview Questions for Experienced
+1. Explain Java Exception Hierarchy.
+2. What does JVM do when an exception occurs in a program?
+3. What happens when an exception is thrown by the main method?
+4. Is it possible to throw checked exceptions from a static block?
+5. What happens to the exception object after exception handling is complete?
+6. What are different scenarios where “Exception in thread main” types of error could occur?
+7. Under what circumstances should we subclass an Exception?
+8. What happens when you run the below program?
+9. Does the finally block always get executed in the Java program?
+10. Why it is always recommended to keep the clean-up activities like closing the I/O resources or DB connections inside a finally block?
+11. Are we allowed to use only try blocks without a catch and finally blocks?
+12. What happens when the below program is run?
+13. Is it possible to throw an Exception inside a Lambda Expression’s body?
+14. What are the rules we should follow when overriding a method throwing an Exception?
+15. What are some of the best practices to be followed while dealing with Java Exception Handling?
